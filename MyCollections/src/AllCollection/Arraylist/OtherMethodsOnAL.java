@@ -54,6 +54,14 @@ public class OtherMethodsOnAL {
 		System.out.println(c.hashCode());
 		System.out.println(d.hashCode());
 		
+		//-----------------------------------------
+		//clone()
+//		Object z=d.clone();
+		ArrayList z=(ArrayList)d.clone();
+		System.out.println(z);
+		
+		
+		
 		
 	
 		

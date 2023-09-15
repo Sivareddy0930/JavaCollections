@@ -1,0 +1,53 @@
+package AllCollection.Linkedlist;
+
+import java.util.LinkedList;
+import java.util.Collection;
+import java.util.List;
+
+
+
+public class AddingElementToLL {
+	
+	
+	public static void main(String[] args) {
+		
+		LinkedList<Integer> d=new LinkedList<Integer>();
+		//add(element),add(index,element),set(index,element)
+		d.add(2000);
+		d.add(null);
+		
+		
+				
+		
+		
+		LinkedList<Integer> c=new LinkedList<Integer>();
+		//add(element),add(index,element),set(index,element)
+		c.add(100);
+		c.add(100);
+		c.add(null);
+		c.add(100);
+		c.add(null);
+		c.add(1,5000);
+		c.set(2,45000);//replace or updateing value
+		
+			
+		System.out.println(c);
+		System.out.println(d);
+		
+		c.addAll(d);
+		System.out.println(c);
+		
+		//----------------
+		LinkedList l=new LinkedList();
+		l.add(40000);
+		l.add(10000000);
+		l.addAll(1,c);//it add specified collection in specified position 
+		l.addAll(d);// it add collection at end of list.
+		System.out.println(l);
+				
+		
+		
+
+	}
+
+}
