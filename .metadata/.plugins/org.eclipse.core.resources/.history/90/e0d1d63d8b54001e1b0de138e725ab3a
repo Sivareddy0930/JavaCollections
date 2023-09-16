@@ -1,0 +1,22 @@
+package AllCollection.SetInterface;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Hashset {
+
+	public static void main(String[] args) {
+		
+//		Set a=new HashSet();
+		HashSet a=new HashSet();
+		
+		
+		a.add(100);
+		a.add("Siva");
+		a.add('S');
+		a.add(12.3456);
+		
+		System.out.println(a);
+	}
+
+}
