@@ -28,22 +28,6 @@ public class CreateLLBasedOnDeque {
 		System.out.println(l);
 		
 		
-		//---------------------------------
-		
-//		for(int i=0;i<l.size();i++) {
-//			System.out.println(l.pollFirst());
-//		}
-		
-		for(Object o:l) {
-			System.out.println(o);
-		}
-		
-		Iterator it=l.iterator();
-		while(it.hasNext()) {
-			System.out.println(it.next());
-		}
-		
-		
 	}
 
 }

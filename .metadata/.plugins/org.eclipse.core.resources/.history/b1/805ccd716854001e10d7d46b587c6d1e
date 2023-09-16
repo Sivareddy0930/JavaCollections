@@ -30,9 +30,9 @@ public class CreateLLBasedOnDeque {
 		
 		//---------------------------------
 		
-//		for(int i=0;i<l.size();i++) {
-//			System.out.println(l.pollFirst());
-//		}
+		for(int i=0;i<l.size();i++) {
+			System.out.println(l.getFirst());
+		}
 		
 		for(Object o:l) {
 			System.out.println(o);
