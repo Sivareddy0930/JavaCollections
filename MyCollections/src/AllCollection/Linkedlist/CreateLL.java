@@ -10,15 +10,13 @@ public class CreateLL {
 		
 		LinkedList l=new LinkedList();
 		
-//		l.add(100);
-//		l.add("siva"); 
-//		l.add(1,2.4544);
-//		l.set(0,'s');
+		l.add(100);
+		l.add("siva"); 
+		l.add(1,2.4544);
+		l.set(0,'s');
+		System.out.println(l);
 		
-//		System.out.println(l.remove());
-		System.out.println(l.poll());
 		
-
 	}
 
 }

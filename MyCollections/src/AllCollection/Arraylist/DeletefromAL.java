@@ -18,8 +18,6 @@ public class DeletefromAL {
 		
 		c.add("siva");
 		c.add("100");
-		c.add("15000");
-		c.add("600");
 		c.add(null);
 		c.add("c");
 		c.add("Hello");
@@ -27,28 +25,36 @@ public class DeletefromAL {
 		c.add(null);
 		c.add(1,"vamsi");
 		c.set(2,null);
+		System.out.println(c);
+		System.out.println(c.remove(1));//it return the value that have been removed  ----->List method
+		System.out.println(c.remove("p"));// it return true if removed,else false.	-------->Collection method
+		System.out.println(c);
 		
+		//--------------------------------------
 		
 
 		ArrayList<String> d=new ArrayList<String>();
 		
 		d.add("siva");
 		d.add("50000");
-		d.add(null);
-		d.add("c");
+//		d.add(null);
+//		d.add("c");
+		System.out.println(c.removeAll(d));//it return true if  atleast one item is removed,else false.	-------->Collection method
+		System.out.println(c);
 		
-		
-		
+		//----------------------------------
 		
 		//retainAll()
-		System.out.println(c);
-		System.out.println(d);	
-		System.out.println(c.retainAll(d));
-		System.out.println(c);
-		System.out.println(d);	
-	
+//		
+//		System.out.println(c.retainAll(d));
+//		System.out.println(c);
+//		System.out.println(d);
+//		
+		//------------------------------
 		
-	
+		c.clear();
+		System.out.println(c);
+		
 		
 		
 		

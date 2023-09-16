@@ -1,0 +1,26 @@
+package AllCollection.Queue;
+
+import java.util.*;
+
+
+public class CreatePQ {
+
+	public static void main(String[] args) {
+		Queue pq=new PriorityQueue();
+		pq.add(100);
+		pq.offer(200);
+		pq.add(1234);
+		pq.offer(101001);
+//		pq.offer("Siva");
+//		pq.add(1234.5678);
+//		pq.offer('S');
+//		pq.add(true);
+//		pq.add(null);
+//		pq.offer(null);
+//		pq.add(1234.5678);
+//		pq.offer('S');
+		System.out.println(pq);
+	
+	}
+
+}

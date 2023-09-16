@@ -1,0 +1,30 @@
+package AllCollection.Queue;
+
+import java.util.*;
+
+
+public class CreateADQ {
+
+	public static void main(String[] args) {
+		Deque adq=new ArrayDeque();
+		adq.add(100);
+		adq.offer(100);
+		adq.add(1234);
+		adq.offer(101001);
+		adq.add(null);
+//		adq.add(null);
+		adq.offer("Siva");
+		adq.add(1234.5678);
+		adq.offer('S');
+		adq.add(true);
+		
+		adq.add(1234.5678);
+		adq.offer('S');
+		
+		
+		
+		
+	
+	}
+
+}
