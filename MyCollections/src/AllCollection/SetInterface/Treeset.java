@@ -1,0 +1,53 @@
+package AllCollection.SetInterface;
+
+import java.util.*;
+
+public class Treeset {
+
+	public static void main(String[] args) {
+		TreeSet d=new TreeSet();
+		d.add(1);
+		d.add(2);
+		d.add(6);
+		d.add(5);
+		d.add(3);
+		d.add(4);
+		d.add(7);
+		d.add(8);
+		d.add(9);
+		d.add(0);
+		
+		System.out.println(d);
+		
+		
+		//retriving
+		
+		System.out.println(d.first());
+		System.out.println(d.last());
+		System.out.println(d.headSet(4));
+		System.out.println(d.tailSet(4));
+		System.out.println(d.subSet(4,9));
+		
+		
+		System.out.println(d.ceiling(4));//4
+		System.out.println(d.floor(4));//4
+		System.out.println(d.higher(4));//5
+		System.out.println(d.lower(4));//3
+		
+		System.out.println(d.descendingSet());
+		
+		//removeing
+		System.out.println(d.pollFirst());//0
+		System.out.println(d.pollLast());//9
+		
+		
+		d.clear();
+		System.out.println(d);//[]
+		
+		
+		
+		
+		
+	}
+
+}
