@@ -3,7 +3,7 @@ package AllCollection.SetInterface;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.Iterator;
-public class Hashset {
+public class LinkedHashSet {
 
 	public static void main(String[] args) {
 

@@ -22,7 +22,6 @@ public class Hashset {
 		s.add(4);
 		s.add(5);
 		s.add(6);
-//		s.add(7);
 		
 		System.out.println(s);
 		
@@ -34,12 +33,12 @@ public class Hashset {
 		
 		//Intersection
 		
-//		System.out.println(d.retainAll(s));
+//		d.retainAll(s);
 //		System.out.println(d);//it give mached elements of d from s.
 		
 		//difference
 //		
-//		System.out.println(d.removeAll(s));
+//		d.removeAll(s);
 //		System.out.println(d);//it give unmatched elements of d.
 		
 		
