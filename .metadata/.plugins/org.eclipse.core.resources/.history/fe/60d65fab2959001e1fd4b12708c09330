@@ -1,0 +1,9 @@
+package AllCollection.Arraylist;
+import java.io.IOException;
+
+
+public class PipelineQueries {
+    public static void main(String[] args)  {
+       System.out.print("ok");
+    }
+}
