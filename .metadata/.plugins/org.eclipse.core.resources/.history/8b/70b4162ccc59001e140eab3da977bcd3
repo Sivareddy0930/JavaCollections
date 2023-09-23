@@ -51,13 +51,13 @@ public class MoreMethods {
 			
 		//hashCode()
 		
-			System.out.println(hs.hashCode());//-2002619463
+			System.out.println(hs.hashCode());
 		//clone()
 			
 			HashMap hs1=(HashMap)hs.clone();
 			
 		//equals()
-			System.out.println(hs.equals(hs1));//true
+			System.out.println(hs.equals(hs1));
 			
 		
 	}

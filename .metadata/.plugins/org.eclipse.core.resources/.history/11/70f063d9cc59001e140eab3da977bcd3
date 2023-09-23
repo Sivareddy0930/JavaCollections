@@ -1,24 +1,23 @@
 package MapInterface;
 
 import java.util.HashMap;
-public class MoreMethods {
+public class MoreMethods2 {
 
 	public static void main(String[] args) {
-		HashMap hs=new HashMap();
+		HashMap<String,Integer> hs=new HashMap<String,Integer>();
 		
-		hs.put(101, "Siva");
-		hs.put(102,"vamsi");
-		hs.put(103, "vasu");
-		hs.put(104, "Naveen");
-		hs.put(105,"gopi");
-		hs.put(106, "srinu");
-		hs.put(105,"Gopi krishna Shima");
+		hs.put("Siva",100000);
+		hs.put("vamsi",110000);
+		hs.put("vasu",200000);
+		hs.put("Naveen",20000000);
+		hs.put("gopi",null);
+		hs.put("srinu",101000);
+		hs.put("Gopi krishna Shima",10000202);
 		hs.put(null,null);
-		hs.put(107, "Siva");
-		hs.put(108, null);
-		hs.put(109, "vasu");
+		hs.put(null,2000);
+		hs.put("vasu",null);
 
-		hs.put(null, "Siva");//this replace the line 16 because same key .
+		hs.put("Siva",1010000);
 		
 		System.out.println(hs);
 		

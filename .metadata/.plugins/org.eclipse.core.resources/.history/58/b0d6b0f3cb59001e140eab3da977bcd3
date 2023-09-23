@@ -44,7 +44,7 @@ public class HashmapMethods {
 		
 			System.out.println(hs.get(103));//vasu
 			System.out.println(hs.get(null));//Siva Reddy tumu
-			System.out.println(hs.get("Srinu"));//106 ==>get only apply for keys.  so we get null but not error.
+			System.out.println(hs.get("Srinu"));//106 ==>get only apply for keys.
 
 			System.out.println(hs.get(120));// null   ==>we get null if specified key is not there.
 			

@@ -29,12 +29,12 @@ public class MoreMethods {
 			
 		//replace()
 			
-			System.out.println(hs.replace(107,"Kingu"));//Siva
-			System.out.println(hs.replace(108,"Kingu Koduku"));//null
+			System.out.println(hs.replace(107,"Kingu"));
+			System.out.println(hs.replace(108,"Kingu Koduku"));
 			System.out.println(hs);
 			
 		//----------------
-			System.out.println(hs.replace(109,"vasu","subba"));//true
+			System.out.println(hs.replace(109,"vasu","subba"));
 		
 			System.out.println(hs);
 			
@@ -44,20 +44,13 @@ public class MoreMethods {
 			System.out.println(hs.isEmpty());//false
 			
 		//size()
-			System.out.println(hs.size());//10
+			System.out.println(hs.size());
 			
 		//equals()
 			System.out.println();
 			
-		//hashCode()
-		
-			System.out.println(hs.hashCode());//-2002619463
-		//clone()
-			
-			HashMap hs1=(HashMap)hs.clone();
-			
-		//equals()
-			System.out.println(hs.equals(hs1));//true
+		//clear()
+			System.out.println();
 			
 		
 	}
