@@ -1,6 +1,7 @@
 package MapInterface;
 
 import java.util.HashMap;
+import java.util.TreeMap;
 public class MoreMethods {
 
 	public static void main(String[] args) {
@@ -59,7 +60,12 @@ public class MoreMethods {
 		//equals()
 			System.out.println(hs.equals(hs1));//true
 			
-		
+		//convertion
+			TreeMap t=new TreeMap();
+				t.put(1,"Siva");
+				t.put(2,"ok");
+			HashMap j=new HashMap(t);
+			System.out.println("To HashMap:"+j);
 	}
 
 }

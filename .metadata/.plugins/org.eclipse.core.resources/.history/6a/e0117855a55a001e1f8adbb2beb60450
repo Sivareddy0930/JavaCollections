@@ -1,0 +1,9 @@
+package CollectionsAndArraysMethods;
+
+public class CollectionsMethods {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

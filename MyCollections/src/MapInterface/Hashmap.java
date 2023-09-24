@@ -11,8 +11,8 @@ public class Hashmap {
 		hs.put(103, "vasu");
 		hs.put(104, "Naveen");
 		hs.put(105,"gopi");
-		hs.put(106, "srinu");
-		hs.put(105,"Gopi krishna Shima");
+		hs.put(1.555f, "srinu");
+		hs.put("Kingu","Gopi krishna Shima");
 		hs.put(null,null);
 		hs.put(107, "Siva");
 		hs.put(108, null);
