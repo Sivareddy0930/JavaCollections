@@ -15,7 +15,6 @@ public class CollectionsMethods {
 		a.add(4);
 		a.add(2);
 		a.add(5);
-		a.add(3);
 		a.add(1);
 //		a.add(4.444);
 //		a.add('a');
@@ -41,32 +40,7 @@ public class CollectionsMethods {
 		
 		System.out.println(Collections.max(a));
 		
-		//min()
 		
-		System.out.println(Collections.min(a));
-		
-		//replaceAll()
-		
-		Collections.replaceAll(a, 3, 100);
-		System.out.println("replaceAll:"+a);//it replace all 3 with 100.
-		
-		//reverse()
-		
-		Collections.reverse(a);
-		System.out.println("reverse:"+a);
-		
-		//shuffle()
-			
-			Collections.shuffle(a);
-			System.out.println("shuffle:"+a);
-			
-		//sort()
-			Collections.sort(a);
-			System.out.println("sort:"+a);
-			
-			//swap()
-			Collections.swap(a, 2, 9);
-			System.out.println("swap:"+a);
 	}
 
 }

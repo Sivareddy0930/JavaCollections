@@ -63,10 +63,6 @@ public class CollectionsMethods {
 		//sort()
 			Collections.sort(a);
 			System.out.println("sort:"+a);
-			
-			//swap()
-			Collections.swap(a, 2, 9);
-			System.out.println("swap:"+a);
 	}
 
 }

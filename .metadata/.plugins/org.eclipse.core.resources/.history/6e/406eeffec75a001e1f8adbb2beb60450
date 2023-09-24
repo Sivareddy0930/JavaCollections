@@ -48,25 +48,13 @@ public class CollectionsMethods {
 		//replaceAll()
 		
 		Collections.replaceAll(a, 3, 100);
-		System.out.println("replaceAll:"+a);//it replace all 3 with 100.
+		System.out.println(a);//it replace all 3 with 100.
 		
 		//reverse()
 		
 		Collections.reverse(a);
-		System.out.println("reverse:"+a);
+		System.out.println(a);
 		
-		//shuffle()
-			
-			Collections.shuffle(a);
-			System.out.println("shuffle:"+a);
-			
-		//sort()
-			Collections.sort(a);
-			System.out.println("sort:"+a);
-			
-			//swap()
-			Collections.swap(a, 2, 9);
-			System.out.println("swap:"+a);
 	}
 
 }

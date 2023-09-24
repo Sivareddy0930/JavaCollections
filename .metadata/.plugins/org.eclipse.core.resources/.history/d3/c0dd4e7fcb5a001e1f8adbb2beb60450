@@ -3,7 +3,7 @@ package CollectionsAndArraysMethods;
 import java.util.*;
 
 
-public class CollectionsMethods {
+public class ArraysMethods {
 
 	public static void main(String[] args) {
 		ArrayList a=new ArrayList();
