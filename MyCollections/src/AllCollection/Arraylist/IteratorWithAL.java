@@ -17,8 +17,8 @@ public class IteratorWithAL {
 		al.add("Venkata");
 
 		//Iterator
-		System.out.println("Iterator");
-		System.out.println(al);
+//		System.out.println("Iterator");
+//		System.out.println(al);
 		
 		
 //		 Iterator<String> it=al.iterator();
@@ -27,14 +27,13 @@ public class IteratorWithAL {
 //		  }
 		
 		
-		
 		// remove using iterator
 		 Iterator<String> it=al.iterator();
 		  while(it.hasNext()) {
 			  String i=it.next();
 			  if(i=="Hello"){
 		
-					 it.remove();// here Remove is a iterator method.	
+					 it.remove();// here remove is a iterator method.	
 				 
 			  }
 			  
@@ -42,16 +41,17 @@ public class IteratorWithAL {
 		  System.out.println(al);
 		
 		
-		//Using Foreach loop 
+		//Using ForEach loop 
 		
-		for(String s:al) {
-			if(s=="Hi") {
-				al.remove(s);//ConcurrentModificationException
-			}
-		}
-		
-		System.out.println(al);
-		
+//		for(String s:al) {
+//			if(s=="Hi") {
+//				al.remove(s);//ConcurrentModificationException
+//			}
+//			
+//		}
+//		
+//		System.out.println(al);
+//		
 	}
 
 

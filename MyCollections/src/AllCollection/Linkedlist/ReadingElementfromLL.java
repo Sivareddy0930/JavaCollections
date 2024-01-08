@@ -35,6 +35,7 @@ public class ReadingElementfromLL {
 		
 		System.out.println(c.isEmpty());
 		System.out.println(c.size());
+		System.out.println(c.get(0));
 			
 		// we can perform reading using loops
 		
