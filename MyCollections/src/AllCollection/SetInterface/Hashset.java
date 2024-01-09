@@ -29,18 +29,18 @@ public class Hashset {
 		
 		//union
 		
-//		d.addAll(s);
-//		System.out.println(d);
+		d.addAll(s);
+		System.out.println(d);
 		
 		//Intersection
 		
-//		System.out.println(d.retainAll(s));
-//		System.out.println(d);//it give mached elements of d from s.
+		System.out.println(d.retainAll(s));
+		System.out.println(d);//it give mached elements of d from s.
 		
 		//difference
-//		
-//		System.out.println(d.removeAll(s));
-//		System.out.println(d);//it give unmatched elements of d.
+		
+		System.out.println(d.removeAll(s));
+		System.out.println(d);//it give unmatched elements of d.
 		
 		
 		//subset

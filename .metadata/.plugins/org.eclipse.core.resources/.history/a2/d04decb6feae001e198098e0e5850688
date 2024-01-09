@@ -1,0 +1,15 @@
+package AllCollection.SetInterface;
+
+public class Test {
+       
+
+	void ma() {
+		System.out.println(a);
+		a=11;
+	}
+	int a=10;
+	public static void main(String[] args) {
+		Test obj=new Test();
+		obj.ma();
+	}
+	}

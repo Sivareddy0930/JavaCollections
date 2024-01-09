@@ -20,7 +20,7 @@ public class AddingElementToLL {
 				
 		
 		
-		LinkedList<Integer> c=new LinkedList<Integer>();
+		List<Integer> c=new LinkedList<Integer>();
 		//add(element),add(index,element),set(index,element)
 		c.add(100);
 		c.add(100);
@@ -44,8 +44,7 @@ public class AddingElementToLL {
 		l.addAll(1,c);//it add specified collection in specified position 
 		l.addAll(d);// it add collection at end of list.
 		System.out.println(l);
-				
-		
+					
 		
 
 	}

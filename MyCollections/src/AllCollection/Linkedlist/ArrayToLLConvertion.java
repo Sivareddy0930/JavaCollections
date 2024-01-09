@@ -9,7 +9,7 @@ public class ArrayToLLConvertion {
 			System.out.println(s);//String Array
 			
 			LinkedList al=new LinkedList(Arrays.asList(s));//asList is a Arrays class Method.
-			System.out.println(al);//ArrayList collection
+			System.out.println(al);//LinkedList collection
 			
 			Object[] ss=al.toArray();//toArray is List method 
 			

@@ -25,12 +25,14 @@ public class LoopingThroughPQ {
 //			System.out.println(q.[i]);
 //		}
 //		int j=0;
-		while(!q.isEmpty()) {
+//		while(!q.isEmpty()) {
+//		
+//			System.out.println(q.poll());
+//			
+//			
+//		}
 		
-			System.out.println(q.poll());
-			
-			
-		}
+//		System.out.println(q);
 		
 		for(Object o:q) {
 			System.out.println(o);
@@ -42,7 +44,7 @@ public class LoopingThroughPQ {
 		}
 		
 		
-		
+//		System.out.println(q);
 		
 		
 		

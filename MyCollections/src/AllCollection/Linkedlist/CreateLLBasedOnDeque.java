@@ -22,6 +22,7 @@ public class CreateLLBasedOnDeque {
 		
 		
 		// we cant access this methods because reference type is Deque.Deque not consist of this methods only List can consist.
+//		
 //		l.add(1,2.4544);
 //		l.set(0,'s');
 //		l.get(2)

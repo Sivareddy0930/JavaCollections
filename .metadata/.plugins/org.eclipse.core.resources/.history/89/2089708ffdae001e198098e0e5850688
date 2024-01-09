@@ -1,0 +1,23 @@
+package AllCollection.SetInterface;
+
+public class Test {
+        static int a=100;
+
+	    static {
+	        System.out.println(Test.a);  // prints 0
+	        a = 99; // a get 99
+	        System.out.println(Test.a); // prints 99
+	    }
+
+	    //static int a = 10;
+	    a=10;
+
+	    static {
+	        System.out.println(a); // prints 10
+	    }
+
+	    public static void main(String[] args) {
+
+	    }
+	}
+

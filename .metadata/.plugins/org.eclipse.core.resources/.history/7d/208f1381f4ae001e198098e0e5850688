@@ -1,0 +1,22 @@
+package AllCollection.SetInterface;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.Iterator;
+
+class A{
+	void m1() {
+		System.out.println("hi");
+	}
+}
+public class Hashset3 extends A{
+	void m1() {
+		System.out.println("hello");
+	}
+	public static void main(String[] args) {
+			A obj=new Hashset3();
+			obj.m1();
+		
+	}
+
+}
