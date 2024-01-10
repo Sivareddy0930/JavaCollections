@@ -1,0 +1,32 @@
+package CollectionsAndArraysMethods;
+
+import java.util.*;
+
+
+public class CollectionsMethodsPractice {
+
+	public static void main(String[] args) {
+		ArrayList a=new ArrayList();
+//		Set a=new HashSet();
+		a.add(1);
+		a.add(4);
+		a.add(2);
+		a.add(3);
+		a.add(6);
+		a.add(4);
+		a.add(2);
+		a.add(5);
+		a.add(3);
+		a.add(1);
+
+		System.out.println(a);
+		
+		
+		System.out.println(Collections.frequency(a, 4));
+		
+		Collections.fill(a,100);
+		System.out.println(a);
+		
+	}
+
+}

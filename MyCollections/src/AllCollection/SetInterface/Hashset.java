@@ -22,30 +22,30 @@ public class Hashset {
 		s.add(4);
 		s.add(5);
 		s.add(6);
-//		s.add(7);
+		s.add(7);
 		
 		System.out.println(s);
 		
 		
 		//union
 		
-		d.addAll(s);
-		System.out.println(d);
-		
-		//Intersection
-		
-		System.out.println(d.retainAll(s));
-		System.out.println(d);//it give mached elements of d from s.
+//		d.addAll(s);
+//		System.out.println(d);
+//		
+//		//Intersection
+//		
+//		System.out.println(d.retainAll(s));
+//		System.out.println(d);//it give matched elements of d from s.
 		
 		//difference
 		
-		System.out.println(d.removeAll(s));
-		System.out.println(d);//it give unmatched elements of d.
+//		System.out.println(d.removeAll(s));
+//		System.out.println(d);//it give unmatched elements of d.
 		
 		
 		//subset
 		
-		System.out.println(d.containsAll(s));//true    s is a sub set of d
+		System.out.println(d.containsAll(s));//false    s is not a sub set of d because all elements are not matched
 		
 		
 		

@@ -1,0 +1,63 @@
+package CollectionsAndArraysMethods;
+
+import java.util.*;
+
+
+public class CollectionsMethodsPractice {
+
+	public static void main(String[] args) {
+		ArrayList a=new ArrayList();
+//		Set a=new HashSet();
+		a.add(1);
+		a.add(4);
+		a.add(2);
+		a.add(3);
+		a.add(6);
+		a.add(4);
+		a.add(2);
+		a.add(5);
+		a.add(3);
+		a.add(1);
+
+		System.out.println(a);
+		
+		//frequency
+		System.out.println(Collections.frequency(a, 4));
+		
+		//replaceAll specified elements with an element. 
+		Collections.replaceAll(a,2,1000);
+		System.out.println(a);
+		
+		//Max element in Collection.
+		System.out.println(Collections.max(a));
+		
+		//Min element in Collection.
+		System.out.println(Collections.min(a));
+		
+		//reverse of a Collection.
+		Collections.reverse(a);
+		System.out.println(a);
+		
+		//it rotate elements in list by specified no.of times in clockwise direction.
+		Collections.rotate(a,2);
+		System.out.println(a);
+		
+		//shuffle the collection.
+		Collections.shuffle(a);
+		System.out.println(a);
+		
+		//sort the collection.
+		Collections.sort(a);
+		System.out.println(a);
+		
+		//swap element with specified element.
+		Collections.swap(a, 6, 1000);
+		System.out.println(a);
+				
+		//fill elements with specified element.
+		Collections.fill(a,100);
+		System.out.println(a);
+		
+	}
+
+}
