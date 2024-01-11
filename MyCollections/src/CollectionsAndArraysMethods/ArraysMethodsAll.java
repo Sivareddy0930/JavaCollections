@@ -21,7 +21,7 @@ public class ArraysMethodsAll {
 			//check two arrays same or not.
 			System.out.println(Arrays.equals(a, b));
 			
-			
+		
 			
 			int c[]= {1,2,4,6,8,6,1,2,3,4,7,4,2,4};
 			Arrays.sort(c);

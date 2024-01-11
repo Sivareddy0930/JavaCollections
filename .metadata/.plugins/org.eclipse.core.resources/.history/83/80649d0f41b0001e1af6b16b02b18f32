@@ -1,0 +1,25 @@
+package MapInterface;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashmapPractice {
+
+
+		public static void main(String[] args) {
+			Map<String,String> h1=new HashMap<>();
+			
+			h1.put("emp1","siva");
+			h1.put("emp2","vamsi");
+			h1.put("emp3","vasu");
+			h1.put("emp4","Naveen");
+			h1.put("emp5","subba");
+			h1.put("emp6","koti");
+			h1.put("emp7","gopi");
+			
+			System.out.println(h1);
+
+		}
+
+
+}

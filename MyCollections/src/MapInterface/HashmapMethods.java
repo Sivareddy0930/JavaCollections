@@ -4,7 +4,7 @@ import java.util.HashMap;
 public class HashmapMethods {
 
 	public static void main(String[] args) {
-		HashMap hs=new HashMap();
+		HashMap<Integer,String> hs=new HashMap();
 		
 		hs.put(101, "Siva");
 		hs.put(102,"vamsi");
@@ -33,13 +33,16 @@ public class HashmapMethods {
 		System.out.println(hs);
 		
 		
-		//containskey and containsavalue
+		//containsKey and containsaValue
 		
 		System.out.println(hs.containsKey(null));//true
+		System.out.println(hs.containsKey(110));//true
 		System.out.println(hs.containsKey(104));//true
 		
 		System.out.println(hs.containsValue("vamsi"));//true
+		System.out.println(hs.containsValue("Naveen"));//true
 		System.out.println("----------------------------------------------------------------------------");
+		
 		//get()
 		
 			System.out.println(hs.get(103));//vasu

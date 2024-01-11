@@ -1,0 +1,15 @@
+package MapInterface;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashmapPractice {
+
+	public static void main(String[] args) {
+		Map<String,String> h1=new HashMap<>();
+		
+		h1.put("emp1","siva");
+
+	}
+
+}
